@@ -1,0 +1,1427 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#c37a7a",
+        "secondaryColor": "#379683",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Epilogue",
+        "display1Size": 4.6,
+        "display2Font": "Epilogue",
+        "display2Size": 3,
+        "display5Font": "Epilogue",
+        "display5Size": "1.8",
+        "display7Font": "Epilogue",
+        "display7Size": "1.1",
+        "display4Font": "Epilogue",
+        "display4Size": "1",
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      },
+      "titlePreset": "Agency",
+      "nameSelectPreset": "agency",
+      "presetSourceTheme": "mobirise5",
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "name": "Site-12-01_1557",
+    "versionFirst": "5.6.13",
+    "siteFonts": [
+      {
+        "css": "'Epilogue', sans-serif",
+        "name": "Epilogue",
+        "url": "https://fonts.googleapis.com/css?family=Epilogue:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'McLaren', display",
+        "name": "McLaren",
+        "url": "https://fonts.googleapis.com/css?family=McLaren:400"
+      },
+      {
+        "css": "'Raleway', sans-serif",
+        "name": "Raleway",
+        "url": "https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "uniqCompNum": 3,
+    "versionPublish": "5.6.13",
+    "imageResize": true,
+    "screenshot": "screenshot.png",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://graphsharv.github.io",
+    "sitemapSwitcherAuto": "on",
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#bbbbbb",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "Używamy plików cookie.Jeśli chcesz używać wciśnij \"POTWIERDŹ\". Czytaj w zakładce <a href='polityka-prywatnosc.html'>Polityka i Prywatność</a>.",
+      "textButton": "Potwierdź"
+    },
+    "favicon": false,
+    "mbrsiteDomain": "op2ox7obyj",
+    "robotsSwitcher": false,
+    "gdpr": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "GraphSharv Site / Strona",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              },
+              "& when (@transparent)": {
+                ".navbar-dropdown": {
+                  "position": "absolute !important"
+                }
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "4px",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              },
+              "&:first-child": {
+                "border-top-left-radius": "4px",
+                "border-top-right-radius": "4px"
+              },
+              "&:last-child": {
+                "border-bottom": "none",
+                "border-bottom-left-radius": "4px",
+                "border-bottom-right-radius": "4px"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": "0.667em 1em !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".navbar-caption": {},
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"4\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#353535\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/graphsharv-logo.png\" alt=\"GraphSharv\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-white text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html#top\" data-app-placeholder=\"Type Text\">GraphSharv</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Główna Strona</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#features19-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">O nas</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#features20-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Jak przebiega u nas zakup?</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-discord socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Get Started</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "sFGzlAXw3z",
+          "_anchor": "menu1-2",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".icons-media-container": {
+              "display": "flex",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-flex-direction": "row",
+              "flex-direction": "row",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "padding-top": "4rem",
+              ".mbr-iconfont": {
+                "font-size": "96px",
+                "color": "rgb(255, 255, 255)"
+              },
+              ".icon-block": {
+                "padding-bottom": "1rem"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            },
+            ".card": {
+              "padding-bottom": "1.5rem"
+            },
+            ".card-wrapper": {
+              "min-height": "220px",
+              "transition": "all 0.3s",
+              "border-radius": "4px",
+              "padding": "1rem",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              ".mbr-iconfont": {
+                "display": "block",
+                "font-size": "4rem",
+                "color": "#ffffff",
+                "margin-bottom": "2rem"
+              },
+              ".card-title": {
+                "color": "#ffffff"
+              }
+            },
+            "H1": {
+              "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#bbbbbb"
+            },
+            ".card-wrapper .card-title, .card-box": {
+              "color": "#bbbbbb"
+            }
+          },
+          "_name": "header19",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header19\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"VimeoPlayer\" mbr-class=\"{'mbr-fullscreen': fullScreen,'mbr-parallax-background' :bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" title=\"Icons Count\" name=\"cardsAmount\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1248.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container\">\n            <div class=\"col-md-12 col-lg-10 m-auto align-center\">\n                <h1 class=\"mbr-section-title mbr-white mbr-fonts-style mb-3\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Chcesz Tanio Grafikę. Dobrze trafiłeś!!!</b></h1>\n                <p class=\"mbr-text mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Potrzebujesz na szybko oprawy graficznej , animacji , film do zmontowania lub serwerów discord. Świetnie się składa bo jesteśmy do właśnie tego spraw.</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-black\" href=\"index.html#features19-a\" data-app-placeholder=\"Type Text\">Przeczytaj więcej</a></div>\n\n                <div class=\"row pt-5 justify-content-center\">\n                    <div class=\"col-12 col-md-6 col-lg-3\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-box align-center\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-cash mobi-mbri\" style=\"color: rgb(250, 250, 250); fill: rgb(250, 250, 250);\"></span>\n                                <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-wrapper .card-title, .card-box\"><b>Tanie ceny za usługi</b></h4>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 1\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-box align-center\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-phone mobi-mbri\" style=\"color: rgb(250, 250, 250); fill: rgb(250, 250, 250);\"></span>\n                                <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-wrapper .card-title, .card-box\">Support 21/7</h4>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 2\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-box align-center\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-users mobi-mbri\" style=\"color: rgb(55, 150, 131); fill: rgb(55, 150, 131);\"></span>\n                                <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-wrapper .card-title, .card-box\"><b>Competitor Analysis</b></h4>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-box align-center\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-layers mobi-mbri\" style=\"color: rgb(55, 150, 131); fill: rgb(55, 150, 131);\"></span>\n                                <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-wrapper .card-title, .card-box\"><b>Research Results</b></h4>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sFGzrhlvIh",
+          "_anchor": "header19-3",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".item": {
+              "display": "flex",
+              "align-items": "center",
+              "margin-bottom": "2rem",
+              "@media (min-width: 991px)": {
+                "margin-bottom": "4rem"
+              },
+              "&:last-child": {
+                ".icon-box": {
+                  "&:before": {
+                    "display": "none"
+                  }
+                }
+              },
+              "& when not (@showCardText)": {
+                "& when (@showCardTitle)": {
+                  "margin-bottom": "4rem"
+                }
+              },
+              "& when not (@showCardTitle)": {
+                "& when (@showCardText)": {
+                  "margin-bottom": "4rem"
+                }
+              },
+              "& when not (@showArrows)": {
+                "align-items": "flex-start"
+              },
+              "&.last": {
+                ".icon-box": {
+                  "&:before": {
+                    "display": "none"
+                  }
+                }
+              }
+            },
+            ".step-number": {
+              "padding-top": "6px"
+            },
+            ".icon-box": {
+              "background": "@iconColor",
+              "width": "60px",
+              "min-width": "60px",
+              "height": "60px",
+              "border-radius": "50%",
+              "margin-right": "2rem",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "position": "relative",
+              "@media (max-width: 768px)": {
+                "margin-right": "1rem"
+              },
+              "& when (@showArrows)": {
+                "&::before": {
+                  "content": "\"\\e925\"",
+                  "font-family": "Moririse2 !important",
+                  "position": "absolute",
+                  "font-size": "~\"@{arrowsSize}px\"",
+                  "left": "50%",
+                  "top": "~\"@{arrowsTop}%\"",
+                  "& when (@fullWidth)": {
+                    "top": "100%"
+                  },
+                  "color": "@iconColor",
+                  "transform": "translate(-50%, 0)"
+                }
+              }
+            },
+            "span": {
+              "font-size": "2rem",
+              "color": "contrast(@iconColor, darken(@iconColor, 50%), #ffffff, 60%)"
+            },
+            "@media (max-width: 991px)": {
+              ".card": {
+                "margin-bottom": "2rem"
+              },
+              ".card-wrapper": {
+                "margin-bottom": "2rem"
+              },
+              ".icon-box": {
+                "& when (@showArrows)": {
+                  "&::before": {
+                    "top": "141%",
+                    "& when (@fullWidth)": {
+                      "top": "123%"
+                    }
+                  }
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".icon-box": {
+                "& when (@showArrows)": {
+                  "&::before": {
+                    "top": "114%"
+                  }
+                }
+              }
+            },
+            ".card-title, .card-box": {
+              "color": "#bbbbbb"
+            },
+            ".icon-text": {
+              "color": "#bbbbbb"
+            }
+          },
+          "_name": "features20",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features19\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"7\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Steps\" name=\"steps\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n            <option value=\"9\">9</option>\n            <option value=\"10\">10</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\">\n        <header>Step</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showCardTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showCardText\" checked>\n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#6592e6\">\n        <input type=\"checkbox\" title=\"Arrows\" name=\"showArrows\" checked>\n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#c37a7a\">\n        <input type=\"range\" inline title=\"Arrows Size\" name=\"arrowsSize\" min=\"10\" max=\"100\" step=\"1\" value=\"32\" condition=\"showArrows\">\n            <input type=\"range\" inline title=\"Arrows Top\" name=\"arrowsTop\" min=\"0\" max=\"150\" step=\"1\" value=\"120\" condition=\"showArrows\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#353535\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\" mbr-if=\"showTitle || showText || showButton\">\n                <div class=\"card-wrapper pb-4\">\n                    <div class=\"card-box align-center\">\n                        <h4 class=\"card-title mbr-fonts-style mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>Jak przebiega zakup u nas?</b></h4>\n                        <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButton\">\n                            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Create\n                                your own site</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-{{textWidth-1}}\">\n                <div class=\"item mbr-flex\" mbr-class=\"{'last': steps == 1}\">\n                    <div class=\"icon-box\">\n                        <span class=\"step-number mbr-fonts-style\" mbr-theme-style=\"display-5\">1</span>\n                    </div>\n                    <div class=\"text-box\" mbr-if=\"showCardTitle || showCardText\">\n                        <h4 class=\"icon-title card-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-title\" mbr-if=\"showCardTitle\"><b>Etap I</b></h4>\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".icon-text\" mbr-if=\"showCardText\">Wchodzisz na nasz serwer Discord który masz u góry w prawym górnym rogu na naszej stronie. Kiedy wejdziesz na serwer stwórz ticketa. Jeśli zrobisz ticketa bez treści dostaniesz kicka z serweru Discord.<br></h5>\n                    </div>\n                </div>\n                <div class=\"item mbr-flex\" mbr-if=\"steps > 1\" mbr-class=\"{'last': steps == 2}\">\n                    <div class=\"icon-box\">\n                        <span class=\"step-number mbr-fonts-style\" mbr-theme-style=\"display-5\">2</span>\n                    </div>\n                    <div class=\"text-box\" mbr-if=\"showCardTitle || showCardText\">\n                        <h4 class=\"icon-title card-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-title\" mbr-if=\"showCardTitle\"><b>Etap II</b></h4>\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".icon-text\" mbr-if=\"showCardText\">Kiedy stworzysz ticketa pomyśl co chcesz w zamówieniu , co potrzebujesz i w jakiej ma być kolorystyce oraz z jakim tematem ma być to związane.</h5>\n                    </div>\n                </div>\n                <div class=\"item mbr-flex\" mbr-if=\"steps > 2\" mbr-class=\"{'last': steps == 3}\">\n                    <div class=\"icon-box\">\n                        <span class=\"step-number mbr-fonts-style\" mbr-theme-style=\"display-5\">3</span>\n                    </div>\n                    <div class=\"text-box\" mbr-if=\"showCardTitle || showCardText\">\n                        <h4 class=\"icon-title card-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-title\" mbr-if=\"showCardTitle\"><b>Etap III</b></h4>\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".icon-text\" mbr-if=\"showCardText\">W ostatnim etapie ktoś z naszego discorda odezwie się do ciebie prawdopodobnie na pv poda opcje płatności jakimi dysponuje i czekaj na zamówienie do 72h!!!</h5>\n                    </div>\n                </div>\n                <div class=\"item mbr-flex\" mbr-if=\"steps > 3\" mbr-class=\"{'last': steps == 4}\">\n                    <div class=\"icon-box\">\n                        <span class=\"step-number mbr-fonts-style\" mbr-theme-style=\"display-5\">4</span>\n                    </div>\n                    <div class=\"text-box\" mbr-if=\"showCardTitle || showCardText\">\n                        <h4 class=\"icon-title card-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-title\" mbr-if=\"showCardTitle\"><b>Etap IV</b></h4>\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".icon-text\" mbr-if=\"showCardText\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus, sodales sollicitudin erat pulvinar. Quisque in mauris blandit, cursus ipsum non, hendrerit enim. Nullam fringilla ex sed maximus efficitur. Sed auctor justo elit, ac vestibulum metus semper non.</h5>\n                    </div>\n                </div>\n                <div class=\"item mbr-flex\" mbr-if=\"steps > 4\" mbr-class=\"{'last': steps == 5}\">\n                    <div class=\"icon-box\">\n                        <span class=\"step-number mbr-fonts-style\" mbr-theme-style=\"display-5\">5</span>\n                    </div>\n                    <div class=\"text-box\" mbr-if=\"showCardTitle || showCardText\">\n                        <h4 class=\"icon-title card-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-title\" mbr-if=\"showCardTitle\">\n                            <b>Project Planning</b>\n                        </h4>\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".icon-text\" mbr-if=\"showCardText\">Mobirise is perfect for non-techies who\n                            are not familiar with\n                            the intricacies of web development.</h5>\n                    </div>\n                </div>\n                <div class=\"item mbr-flex\" mbr-if=\"steps > 5\" mbr-class=\"{'last': steps == 6}\">\n                    <div class=\"icon-box\">\n                        <span class=\"step-number mbr-fonts-style\" mbr-theme-style=\"display-5\">6</span>\n                    </div>\n                    <div class=\"text-box\" mbr-if=\"showCardTitle || showCardText\">\n                        <h4 class=\"icon-title card-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-title\" mbr-if=\"showCardTitle\">\n                            <b>Deployment</b>\n                        </h4>\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".icon-text\" mbr-if=\"showCardText\">Mobirise is perfect for non-techies who\n                            are not familiar with\n                            the intricacies of web development.</h5>\n                    </div>\n                </div>\n                <div class=\"item mbr-flex\" mbr-if=\"steps > 6\" mbr-class=\"{'last': steps == 7}\">\n                    <div class=\"icon-box\">\n                        <span class=\"step-number mbr-fonts-style\" mbr-theme-style=\"display-5\">7</span>\n                    </div>\n                    <div class=\"text-box\" mbr-if=\"showCardTitle || showCardText\">\n                        <h4 class=\"icon-title card-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-title\" mbr-if=\"showCardTitle\">\n                            <b>Specification</b>\n                        </h4>\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".icon-text\" mbr-if=\"showCardText\">Mobirise is perfect for non-techies who\n                            are not familiar with\n                            the intricacies of web development.</h5>\n                    </div>\n                </div>\n                <div class=\"item mbr-flex\" mbr-if=\"steps > 7\" mbr-class=\"{'last': steps == 8}\">\n                    <div class=\"icon-box\">\n                        <span class=\"step-number mbr-fonts-style\" mbr-theme-style=\"display-5\">8</span>\n                    </div>\n                    <div class=\"text-box\" mbr-if=\"showCardTitle || showCardText\">\n                        <h4 class=\"icon-title card-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-title\" mbr-if=\"showCardTitle\">\n                            <b>Project Planning</b>\n                        </h4>\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".icon-text\" mbr-if=\"showCardText\">Mobirise is perfect for non-techies who\n                            are not familiar with\n                            the intricacies of web development.</h5>\n                    </div>\n                </div>\n                <div class=\"item mbr-flex\" mbr-if=\"steps > 8\" mbr-class=\"{'last': steps == 9}\">\n                    <div class=\"icon-box\">\n                        <span class=\"step-number mbr-fonts-style\" mbr-theme-style=\"display-5\">9</span>\n                    </div>\n                    <div class=\"text-box\" mbr-if=\"showCardTitle || showCardText\">\n                        <h4 class=\"icon-title card-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-title\" mbr-if=\"showCardTitle\">\n                            <b>Deployment</b>\n                        </h4>\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".icon-text\" mbr-if=\"showCardText\">Mobirise is perfect for non-techies who\n                            are not familiar with\n                            the intricacies of web development.</h5>\n                    </div>\n                </div>\n                <div class=\"item mbr-flex\" mbr-if=\"steps > 9\" mbr-class=\"{'last': steps == 10}\">\n                    <div class=\"icon-box\">\n                        <span class=\"step-number mbr-fonts-style\" mbr-theme-style=\"display-5\">10</span>\n                    </div>\n                    <div class=\"text-box\" mbr-if=\"showCardTitle || showCardText\">\n                        <h4 class=\"icon-title card-title mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-title\" mbr-if=\"showCardTitle\">\n                            <b>Deployment</b>\n                        </h4>\n                        <h5 class=\"icon-text mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".icon-text\" mbr-if=\"showCardText\">Mobirise is perfect for non-techies who\n                            are not familiar with\n                            the intricacies of web development.</h5>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sFGBbGYuTc",
+          "_anchor": "features20-4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".row": {
+              "align-items": "center"
+            },
+            "@media (max-width: 991px)": {
+              ".row": {
+                "flex-direction": "column-reverse"
+              },
+              ".image-wrapper": {
+                "margin-bottom": "2rem"
+              },
+              ".card-wrapper": {
+                "padding": "0 1rem"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".card-wrapper": {
+                "padding-right": "2rem"
+              }
+            },
+            ".image-wrapper img": {
+              "width": "100%",
+              "object-fit": "cover"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#bbbbbb"
+            },
+            ".card-title": {
+              "color": "#379683"
+            }
+          },
+          "_name": "features19",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features18\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-12 col-lg\" mbr-class=\"{'offset-lg-1': fullWidth}\">\n                <div class=\"card-wrapper\">\n                    <h6 class=\"card-title mbr-fonts-style mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>O nas</b></h6>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">GraphSharv jest zbudowany z bardzo młodych wykształconych grafików , animatorów , montażystów i specjalistach w serwerach discord.&nbsp;&nbsp;</p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Read More</a></div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-{{imageWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/graphsharv-logo-1000x1000.png\" alt=\"Mobirise Website Builder\">\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sFGGxz3b6J",
+          "_anchor": "features19-a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".team-card": {
+              "margin-bottom": "2rem",
+              "transition": "all 0.3s",
+              "&:hover": {
+                "transform": "translateY(-10px)"
+              }
+            },
+            ".card-wrap": {
+              "background": "@cardBg",
+              "border-radius": "4px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              ".image-wrap img": {
+                "width": "100%"
+              },
+              ".content-wrap": {
+                "@media (min-width: 768px)": {
+                  "padding": "2rem"
+                },
+                "@media (max-width: 767px)": {
+                  "padding": "1rem"
+                }
+              }
+            },
+            ".social-row": {
+              "text-align": "center",
+              ".soc-item": {
+                "display": "inline-block",
+                "text-align": "center",
+                "border-radius": "50%",
+                "margin-right": "0.6rem",
+                "margin-bottom": "1rem",
+                "padding": "0.5rem",
+                "border": "2px solid @socialIconColor",
+                "transition": "all 0.3s",
+                ".mbr-iconfont": {
+                  "transition": "all 0.3s",
+                  "display": "flex",
+                  "justify-content": "center",
+                  "align-content": "center",
+                  "color": "@socialIconColor",
+                  "font-size": "1.5rem"
+                },
+                "&:hover": {
+                  "background-color": "@socialIconColor",
+                  ".mbr-iconfont": {
+                    "color": "contrast(@socialIconColor)"
+                  }
+                }
+              }
+            },
+            ".card-title, .social-row": {
+              "color": "#c7493a"
+            },
+            ".card-text, .mbr-section-btn, .social-row": {
+              "color": "#bbbbbb"
+            },
+            ".mbr-role, .social-row": {
+              "color": "#c37a7a"
+            },
+            ".mbr-section-title": {
+              "color": "#c37a7a"
+            }
+          },
+          "_name": "team1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"team1\" group=\"Team\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Role\" name=\"showRole\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showCardText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showCardButtons\">\n        <input type=\"color\" title=\"BG\" name=\"cardBg\" value=\"#232323\">\n        <header condition=\"showSocial\">Social</header>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"1\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#c37a7a\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#353535\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12\" mbr-if=\"showTitle || showSubtitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    <b>Nasz Zespół</b></h3>\n                <p class=\"mbr-section-subtitle mbr-fonts-style align-center mb-5\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle\">\n                    Meet our team\n                </p>\n            </div>\n            <div class=\"col-sm-6\" mbr-class=\"{'col-lg-3': cardsAmount == 4, 'col-lg-4': cardsAmount != 4}\">\n                <div class=\"card-wrap\">\n                    <div class=\"image-wrap\">\n                        <img src=\"@PROJECT_PATH@/assets/images/cep-596x755.png\" alt=\"Mobirise Website Builder\">\n                    </div>\n                    <div class=\"content-wrap\">\n                        <h5 class=\"mbr-section-title card-title mbr-fonts-style align-center m-0\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".card-title, .social-row\"><b>_NoNam3#5371</b></h5>\n                        <h6 class=\"mbr-role mbr-fonts-style align-center mb-3\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\" data-app-selector=\".mbr-role, .social-row\">\n                            <b>Ekspert od Serwerów Discord</b></h6>\n                        <p class=\"card-text mbr-fonts-style align-center\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus.</p>\n                        <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                            <div class=\"soc-item\">\n                                <a href=\"https://www.facebook.com/Mobirise/\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                                </a>\n                            </div>\n                        </div>\n                        <div class=\"mbr-section-btn card-btn align-center\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showCardButtons\" mbr-theme-style=\"display-4\">\n                            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">View\n                                Profile</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-sm-6\" mbr-class=\"{'col-lg-3': cardsAmount == 4, 'col-lg-4': cardsAmount != 4}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrap\">\n                    <div class=\"image-wrap\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-7.jpg\" alt=\"Mobirise Website Builder\">\n                    </div>\n                    <div class=\"content-wrap\">\n                        <h5 class=\"mbr-section-title card-title mbr-fonts-style align-center m-0\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".card-title, .social-row\">\n                            <b>Sarah Palmer</b>\n                        </h5>\n                        <h6 class=\"mbr-role mbr-fonts-style align-center mb-3\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\" data-app-selector=\".mbr-role, .social-row\">\n                            <b>Manager</b>\n                        </h6>\n                        <p class=\"card-text mbr-fonts-style align-center\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus.\n                        </p>\n                        <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                            <div class=\"soc-item\">\n                                <a href=\"https://www.facebook.com/Mobirise/\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                                </a>\n                            </div>\n                        </div>\n                        <div class=\"mbr-section-btn card-btn align-center\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showCardButtons\" mbr-theme-style=\"display-4\">\n                            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">View\n                                Profile</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-sm-6\" mbr-class=\"{'col-lg-3': cardsAmount == 4, 'col-lg-4': cardsAmount != 4}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrap\">\n                    <div class=\"image-wrap\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-8.jpg\" alt=\"Mobirise Website Builder\">\n                    </div>\n                    <div class=\"content-wrap\">\n                        <h5 class=\"mbr-section-title card-title mbr-fonts-style align-center m-0\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".card-title, .social-row\">\n                            <b>Jessica Swift</b>\n                        </h5>\n                        <h6 class=\"mbr-role mbr-fonts-style align-center mb-3\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\" data-app-selector=\".mbr-role, .social-row\">\n                            <b>Analyst</b>\n                        </h6>\n                        <p class=\"card-text mbr-fonts-style align-center\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus.\n                        </p>\n                        <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                            <div class=\"soc-item\">\n                                <a href=\"https://www.facebook.com/Mobirise/\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                                </a>\n                            </div>\n                        </div>\n                        <div class=\"mbr-section-btn card-btn align-center\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showCardButtons\" mbr-theme-style=\"display-4\">\n                            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">View\n                                Profile</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-sm-6\" mbr-class=\"{'col-lg-3': cardsAmount == 4, 'col-lg-4': cardsAmount != 4}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrap\">\n                    <div class=\"image-wrap\">\n                        <img src=\"../_images/people/team4.jpg\">\n                    </div>\n                    <div class=\"content-wrap\">\n                        <h5 class=\"mbr-section-title card-title mbr-fonts-style align-center m-0\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".card-title, .social-row\">\n                            <b>Helen Smith</b>\n                        </h5>\n                        <h6 class=\"mbr-role mbr-fonts-style align-center mb-3\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\" data-app-selector=\".mbr-role, .social-row\">\n                            <b>Designer</b>\n                        </h6>\n                        <p class=\"card-text mbr-fonts-style align-center\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n                            Each theme in the Mobirise site builder contains a set of unique blocks.\n                        </p>\n                        <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                            <div class=\"soc-item\">\n                                <a href=\"https://www.facebook.com/Mobirise/\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                                </a>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                                </a>\n                            </div>\n                        </div>\n                        <div class=\"mbr-section-btn card-btn align-center\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showCardButtons\" mbr-theme-style=\"display-4\">\n                            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">View\n                                Profile</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sFGGp6mJeM",
+          "_anchor": "team1-9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".social-row": {
+              "display": "flex",
+              "flex-wrap": "wrap"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "border-radius": "50%",
+              "background-color": "white",
+              "margin-right": "0.5rem",
+              "margin-bottom": "1rem",
+              "padding": "0.5rem",
+              "height": "2.5rem",
+              "width": "2.5rem"
+            },
+            "@media (max-width: 767px)": {
+              ".row": {
+                "text-align": "center"
+              },
+              ".social-row": {
+                "justify-content": "center"
+              }
+            },
+            ".list": {
+              "list-style": "none",
+              "padding-left": "0",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "margin-bottom": "0rem"
+              },
+              "color": "#bbbbbb"
+            },
+            ".mbr-text": {
+              "color": "#bbbbbb"
+            },
+            ".mbr-iconfont": {
+              "color": "black"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopyright\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white\">\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>Links</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><br></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>Info</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n\n                    <li class=\"mbr-text item-wrap\"><br></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>Features</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><br></li><li class=\"mbr-text item-wrap\"><br></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>About</b>\n                </h5>\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">&nbsp;</p>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle && showSocial\">\n                    <b>Social</b>\n                </h5>\n                <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-behance socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-discord socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 mt-4\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style copyright align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2023 GraphSharv - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sFGDg6hy8z",
+          "_anchor": "footer1-7",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "polityka-prywatnosc.html": {
+      "settings": {
+        "title": "Polityka i prywatności",
+        "order": "1"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#353535\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Polityka Prywatności</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><div>Poniższa Polityka Prywatności określa zasady zapisywania i uzyskiwania dostępu do danych na Urządzeniach Użytkowników korzystających z Serwisu do celów świadczenia usług drogą elektroniczną przez Administratora oraz zasady gromadzenia i przetwarzania danych osobowych Użytkowników, które zostały podane przez nich osobiście i dobrowolnie za pośrednictwem narzędzi dostępnych w Serwisie.\n</div><div>Poniższa Polityka Prywatności jest integralną częścią Regulaminu Serwisu, który określa zasady, prawa i obowiązki Użytkowników korzystających z Serwisu.\n</div><div>§1 Definicje\n</div><div>Serwis - serwis internetowy \"graphsharv.github.io\" działający pod adresem https://graphsharv.github.io\n</div><div>Serwis zewnętrzny - serwisy internetowe partnerów, usługodawców lub usługobiorców współpracujących z Administratorem\n</div><div>Administrator Serwisu / Danych - Administratorem Serwisu oraz Administratorem Danych (dalej Administrator) jest osoba fizyczna \"Bartosz Schabowski\" zamieszkała w Sanoku, świadcząca usługi drogą elektroniczną za pośrednictwem Serwisu\n</div><div>Użytkownik - osoba fizyczna, dla której Administrator świadczy usługi drogą elektroniczną za pośrednictwem Serwisu.\n</div><div>Urządzenie - elektroniczne urządzenie wraz z oprogramowaniem, za pośrednictwem którego Użytkownik uzyskuje dostęp do Serwisu\n</div><div>Cookies (ciasteczka) - dane tekstowe gromadzone w formie plików zamieszczanych na Urządzeniu Użytkownika\n</div><div>RODO - Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych)\n</div><div>Dane osobowe - oznaczają informacje o zidentyfikowanej lub możliwej do zidentyfikowania osobie fizycznej („osobie, której dane dotyczą”); możliwa do zidentyfikowania osoba fizyczna to osoba, którą można bezpośrednio lub pośrednio zidentyfikować, w szczególności na podstawie identyfikatora takiego jak imię i nazwisko, numer identyfikacyjny, dane o lokalizacji, identyfikator internetowy lub jeden bądź kilka szczególnych czynników określających fizyczną, fizjologiczną, genetyczną, psychiczną, ekonomiczną, kulturową lub społeczną tożsamość osoby fizycznej\n</div><div>Przetwarzanie - oznacza operację lub zestaw operacji wykonywanych na danych osobowych lub zestawach danych osobowych w sposób zautomatyzowany lub niezautomatyzowany, taką jak zbieranie, utrwalanie, organizowanie, porządkowanie, przechowywanie, adaptowanie lub modyfikowanie, pobieranie, przeglądanie, wykorzystywanie, ujawnianie poprzez przesłanie, rozpowszechnianie lub innego rodzaju udostępnianie, dopasowywanie lub łączenie, ograniczanie, usuwanie lub niszczenie;\n</div><div>Ograniczenie przetwarzania - oznacza oznaczenie przechowywanych danych osobowych w celu ograniczenia ich przyszłego przetwarzania\n</div><div>Profilowanie - oznacza dowolną formę zautomatyzowanego przetwarzania danych osobowych, które polega na wykorzystaniu danych osobowych do oceny niektórych czynników osobowych osoby fizycznej, w szczególności do analizy lub prognozy aspektów dotyczących efektów pracy tej osoby fizycznej, jej sytuacji ekonomicznej, zdrowia, osobistych preferencji, zainteresowań, wiarygodności, zachowania, lokalizacji lub przemieszczania się\n</div><div>Zgoda - zgoda osoby, której dane dotyczą oznacza dobrowolne, konkretne, świadome i jednoznaczne okazanie woli, którym osoba, której dane dotyczą, w formie oświadczenia lub wyraźnego działania potwierdzającego, przyzwala na przetwarzanie dotyczących jej danych osobowych\n</div><div>Naruszenie ochrony danych osobowych - oznacza naruszenie bezpieczeństwa prowadzące do przypadkowego lub niezgodnego z prawem zniszczenia, utracenia, zmodyfikowania, nieuprawnionego ujawnienia lub nieuprawnionego dostępu do danych osobowych przesyłanych, przechowywanych lub w inny sposób przetwarzanych\n</div><div>Pseudonimizacja - oznacza przetworzenie danych osobowych w taki sposób, by nie można ich było już przypisać konkretnej osobie, której dane dotyczą, bez użycia dodatkowych informacji, pod warunkiem że takie dodatkowe informacje są przechowywane osobno i są objęte środkami technicznymi i organizacyjnymi uniemożliwiającymi ich przypisanie zidentyfikowanej lub możliwej do zidentyfikowania osobie fizycznej\n</div><div>Anonimizacja - Anonimizacja danych to nieodwracalny proces operacji na danych, który niszczy / nadpisuje \"dane osobowe\" uniemożliwiając identyfikację, lub powiązanie danego rekordu z konkretnym użytkownikiem lub osobą fizyczną.\n</div><div>§2 Inspektor Ochrony Danych\n</div><div>Na podstawie Art. 37 RODO, Administrator nie powołał Inspektora Ochrony Danych.\n</div><div>W sprawach dotyczących przetwarzania danych, w tym danych osobowych, należy kontaktować się bezpośrednio z Administratorem.\n</div><div>§3 Rodzaje Plików Cookies\n</div><div>Cookies wewnętrzne - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez system teleinformatyczny Serwisu\n</div><div>Cookies zewnętrzne - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez systemy teleinformatyczne Serwisów zewnętrznych. Skrypty Serwisów zewnętrznych, które mogą umieszczać pliki Cookies na Urządzeniach Użytkownika zostały świadomie umieszczone w Serwisie poprzez skrypty i usługi udostępnione i zainstalowane w Serwisie\n</div><div>Cookies sesyjne - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez Serwis podczas jednej sesji danego Urządzenia. Po zakończeniu sesji pliki są usuwane z Urządzenia Użytkownika.\n</div><div>Cookies trwałe - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez Serwis do momentu ich ręcznego usunięcia. Pliki nie są usuwane automatycznie po zakończeniu sesji Urządzenia chyba że konfiguracja Urządzenia Użytkownika jest ustawiona na tryb usuwanie plików Cookie po zakończeniu sesji Urządzenia.\n</div><div>§4 Bezpieczeństwo składowania danych\n</div><div>Mechanizmy składowania i odczytu plików Cookie - Mechanizmy składowania, odczytu i wymiany danych pomiędzy Plikami Cookies zapisywanymi na Urządzeniu Użytkownika a Serwisem są realizowane poprzez wbudowane mechanizmy przeglądarek internetowych i nie pozwalają na pobieranie innych danych z Urządzenia Użytkownika lub danych innych witryn internetowych, które odwiedzał Użytkownik, w tym danych osobowych ani informacji poufnych. Przeniesienie na Urządzenie Użytkownika wirusów, koni trojańskich oraz innych robaków jest także praktycznie niemożliwe.\n</div><div>Cookie wewnętrzne - zastosowane przez Administratora pliki Cookie są bezpieczne dla Urządzeń Użytkowników i nie zawierają skryptów, treści lub informacji mogących zagrażać bezpieczeństwu danych osobowych lub bezpieczeństwu Urządzenia z którego korzysta Użytkownik.\n</div><div>Cookie zewnętrzne - Administrator dokonuje wszelkich możliwych działań w celu weryfikacji i doboru partnerów serwisu w kontekście bezpieczeństwa Użytkowników. Administrator do współpracy dobiera znanych, dużych partnerów o globalnym zaufaniu społecznym. Nie posiada on jednak pełnej kontroli nad zawartością plików Cookie pochodzących od zewnętrznych partnerów. Za bezpieczeństwo plików Cookie, ich zawartość oraz zgodne z licencją wykorzystanie przez zainstalowane w serwisie Skrypty, pochodzących z Serwisów zewnętrznych, Administrator nie ponosi odpowiedzialności na tyle na ile pozwala na to prawo. Lista partnerów zamieszczona jest w dalszej części Polityki Prywatności.\n</div><div>Kontrola plików Cookie\n</div><div>Użytkownik może w dowolnym momencie, samodzielnie zmienić ustawienia dotyczące zapisywania, usuwania oraz dostępu do danych zapisanych plików Cookies przez każdą witrynę internetową\n</div><div>Informacje o sposobie wyłączenia plików Cookie w najpopularniejszych przeglądarkach komputerowych dostępne są na stronie: jak wyłączyć cookie lub u jednego ze wskazanych dostawców:\n</div><div>Zarządzanie plikami cookies w przeglądarce Chrome\n</div><div>Zarządzanie plikami cookies w przeglądarce Opera\n</div><div>Zarządzanie plikami cookies w przeglądarce FireFox\n</div><div>Zarządzanie plikami cookies w przeglądarce Edge\n</div><div>Zarządzanie plikami cookies w przeglądarce Safari\n</div><div>Zarządzanie plikami cookies w przeglądarce Internet Explorer 11\n</div><div>Użytkownik może w dowolnym momencie usunąć wszelkie zapisane do tej pory pliki Cookie korzystając z narzędzi Urządzenia Użytkownika, za pośrednictwem którego Użytkownik korzysta z usług Serwisu.\n</div><div>Zagrożenia po stronie Użytkownika - Administrator stosuje wszelkie możliwe środki techniczne w celu zapewnienia bezpieczeństwa danych umieszczanych w plikach Cookie. Należy jednak zwrócić uwagę, że zapewnienie bezpieczeństwa tych danych zależy od obu stron w tym działalności Użytkownika. Administrator nie bierze odpowiedzialności za przechwycenie tych danych, podszycie się pod sesję Użytkownika lub ich usunięcie, na skutek świadomej lub nieświadomej działalność Użytkownika, wirusów, koni trojańskich i innego oprogramowania szpiegującego, którymi może jest lub było zainfekowane Urządzenie Użytkownika. Użytkownicy w celu zabezpieczenia się przed tymi zagrożeniami powinni stosować się do zasad bezpiecznego korzystania z sieci internet.\n</div><div>Przechowywanie danych osobowych - Administrator zapewnia, że dokonuje wszelkich starań, by przetwarzane dane osobowe wprowadzone dobrowolnie przez Użytkowników były bezpieczne, dostęp do nich był ograniczony i realizowany zgodnie z ich przeznaczeniem i celami przetwarzania. Administrator zapewnia także, że dokonuje wszelkich starań w celu zabezpieczenia posiadanych danych przed ich utratą, poprzez stosowanie odpowiednich zabezpieczeń fizycznych jak i organizacyjnych.\n</div><div>Przechowywanie haseł - Administrator oświadcza, że hasła przechowywane są w zaszyfrowanej postaci, używając najnowszych standardów i wytycznych w tym zakresie. Deszyfracja podawanych w Serwisie haseł dostępu do konta jest praktycznie niemożliwa.\n</div><div>§5 Cele do których wykorzystywane są pliki Cookie\n</div><div>Usprawnienie i ułatwienie dostępu do Serwisu\n</div><div>Personalizacja Serwisu dla Użytkowników\n</div><div>Umożliwienie Logowania do serwisu\n</div><div>Marketing, Remarketing w serwisach zewnętrznych\n</div><div>Usługi serwowania reklam\n</div><div>Usługi afiliacyjne\n</div><div>Prowadzenie statystyk (użytkowników, ilości odwiedzin, rodzajów urządzeń, łącze itp.)\n</div><div>Serwowanie usług multimedialnych\n</div><div>Świadczenie usług społecznościowych\n</div><div>§6 Cele przetwarzania danych osobowych\n</div><div>Dane osobowe dobrowolnie podane przez Użytkowników są przetwarzane w jednym z następujących celów:\n</div><div>Realizacji usług elektronicznych:\n</div><div>Usługi rejestracji i utrzymania konta Użytkownika w Serwisie i funkcjonalności z nim związanych\n</div><div>Usługi Newslettera (w tym przesyłania za zgodą treści reklamowych)\n</div><div>Usługi komentowania / polubienia wpisów w Serwisie bez konieczności rejestrowania się\n</div><div>Usługi udostępniania informacji o treści umieszczonych w Serwisie w serwisach społecznościowych lub innych witrynach.\n</div><div>Komunikacji Administratora z Użytkownikami w sprawach związanych z Serwisem oraz ochrony danych\n</div><div>Zapewnienia prawnie uzasadnionego interesu Administratora\n</div><div>Dane o Użytkownikach gromadzone anonimowo i automatycznie są przetwarzane w jednym z następujących celów:\n</div><div>Prowadzenie statystyk\n</div><div>Remarketing\n</div><div>Serwowanie reklam dostosowanych do preferencji Użytkowników\n</div><div>Obsługi programów afiliacyjnych\n</div><div>Zapewnienia prawnie uzasadnionego interesu Administratora\n</div><div>§7 Pliki Cookies Serwisów zewnętrznych\n</div><div>Administrator w Serwisie wykorzystuje skrypty javascript i komponenty webowe partnerów, którzy mogą umieszczać własne pliki cookies na Urządzeniu Użytkownika. Pamiętaj, że w ustawieniach swojej przeglądarki możesz sam decydować o dozwolonych plikach cookies jakie mogą być używane przez poszczególne witryny internetowe. Poniżej znajduje się lista partnerów lub ich usług zaimplementowanych w Serwisie, mogących umieszczać pliki cookies:\n</div><div>Usługi multimedialne:\n</div><div>YouTube\n</div><div>Usługi społecznościowe / łączone:\n</div><div>(Rejestracja, Logowanie, udostępnianie treści, komunikacja, itp.)\n</div><div>Twitter\n</div><div>Facebook\n</div><div>Google+\n</div><div>Usługi udostępniania treści:\n</div><div>Instagram\n</div><div>Usługi Newslettera:\n</div><div>MailChimp\n</div><div>Usługi serwowania reklam oraz sieci afiliacyjne:\n</div><div>MyLead\n</div><div>Usługi świadczone przez podmioty trzecie są poza kontrolą Administratora. Podmioty te mogą w każdej chwili zmienić swoje warunki świadczenia usług, polityki prywatności, cel przetwarzania danych oraz sposów wykorzystywania plików cookie.\n</div><div>§8 Rodzaje gromadzonych danych\n</div><div>Serwis gromadzi dane o Użytkownikach. Cześć danych jest gromadzona automatycznie i anonimowo, a część danych to dane osobowe podane dobrowolnie przez Użytkowników w trakcie zapisywania się do poszczególnych usług oferowanych przez Serwis.\n</div><div>Anonimowe dane gromadzone automatycznie:\n</div><div>Adres IP\n</div><div>Typ przeglądarki\n</div><div>Rozdzielczość ekranu\n</div><div>Przybliżona lokalizacja\n</div><div>Otwierane podstrony serwisu\n</div><div>Czas spędzony na odpowiedniej podstronie serwisu\n</div><div>Rodzaj systemu operacyjnego\n</div><div>Adres poprzedniej podstrony\n</div><div>Adres strony odsyłającej\n</div><div>Język przeglądarki\n</div><div>Prędkość łącza internetowego\n</div><div>Dostawca usług internetowych\n</div><div>Dane gromadzone podczas rejestracji:\n</div><div>Imię / nazwisko / pseudonim\n</div><div>Login\n</div><div>Adres e-mail\n</div><div>Avatar / Zdjęcie profilowe\n</div><div>Adres IP (zbierane automatycznie)\n</div><div>Dane gromadzone podczas zapisu do usługi Newsletter\n</div><div>Adres e-mail\n</div><div>Część danych (bez danych identyfikujących) może być przechowywana w plikach cookies. Cześć danych (bez danych identyfikujących) może być przekazywana do dostawcy usług statystycznych.\n</div><div>§9 Dostęp do danych osobowych przez podmioty trzecie\n</div><div>Co do zasady jedynym odbiorcą danych osobowych podawanych przez Użytkowników jest Administrator. Dane gromadzone w ramach świadczonych usług nie są przekazywane ani odsprzedawane podmiotom trzecim.\n</div><div>Dostęp do danych (najczęściej na podstawie Umowy powierzenia przetwarzania danych) mogą posiadać podmioty, odpowiedzialne za utrzymania infrastruktury i usług niezbędnych do prowadzenia serwisu tj.:\n</div><div>Firmy hostingowe, świadczące usługi hostingu lub usług pokrewnych dla Administratora\n</div><div>Powierzenie przetwarzania danych osobowych - Newsletter\n</div><div>Administrator w celu świadczenia usługi Newsletter, korzysta z usług podmiotu trzeciego - serwisu MailChimp, . Dane wprowadzone w formularzu zapisu do newslettera są przekazywane, przechowywane i przetwarzane w serwisie zewnętrznym tego usługodawcy.\n</div><div>Informujemy, że wskazany partner może modyfikować wskazaną politykę prywatności bez zgody Administratora.\n</div><div>Powierzenie przetwarzania danych osobowych - Usługi Hostingu, VPS lub Serwerów Dedykowanych\n</div><div>Administrator w celu prowadzenia serwisu korzysta z usług zewnętrznego dostawcy hostingu, VPS lub Serwerów Dedykowanych - . Wszelkie dane gromadzone i przetwarzane w serwisie są przechowywane i przetwarzane w infrastrukturze usługodawcy zlokalizowanej w obrębie gramic Unii Europejskiej. Istnieje możliwość dostępu do danych wskutek prac serwisowych realizowanych przez personel usługodawcy. Dostęp do tych danych reguluje umowa zawarta pomiędzy Administratorem a Usługodawcą.\n</div><div>§10 Sposób przetwarzania danych osobowych\n</div><div>Dane osobowe podane dobrowolnie przez Użytkowników:\n</div><div>Dane osobowe nie będą przekazywane poza Unię Europejską, chyba że zostały opublikowane na skutek indywidualnego działania Użytkownika (np. wprowadzenie komentarza lub wpisu), co sprawi, że dane będą dostępne dla każdej osoby odwiedzającej serwis.\n</div><div>Dane osobowe nie będą wykorzystywane do zautomatyzowanego podejmowania decyzji (profilowania).\n</div><div>Dane osobowe nie będą odsprzedawane podmiotom trzecim.\n</div><div>Dane anonimowe (bez danych osobowych) gromadzone automatycznie:\n</div><div>Dane anonimiwe (bez danych osobowych) będą przekazywane poza Unię Europejską.\n</div><div>Dane anonimiwe (bez danych osobowych) nie będą wykorzystywane do zautomatyzowanego podejmowania decyzji (profilowania).\n</div><div>Dane anonimiwe (bez danych osobowych) nie będą odsprzedawane podmiotom trzecim.\n</div><div>§11 Podstawy prawne przetwarzania danych osobowych\n</div><div>Serwis gromadzi i przetwarza dane Użytkowników na podstawie:\n</div><div>Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych)\n</div><div>art. 6 ust. 1 lit. a\n</div><div>osoba, której dane dotyczą wyraziła zgodę na przetwarzanie swoich danych osobowych w jednym lub większej liczbie określonych celów\n</div><div>art. 6 ust. 1 lit. b\n</div><div>przetwarzanie jest niezbędne do wykonania umowy, której stroną jest osoba, której dane dotyczą, lub do podjęcia działań na żądanie osoby, której dane dotyczą, przed zawarciem umowy\n</div><div>art. 6 ust. 1 lit. c\n</div><div>przetwarzanie jest niezbędne do wypełnienia obowiązku prawnego ciążącego na administratorze\n</div><div>art. 6 ust. 1 lit. f\n</div><div>przetwarzanie jest niezbędne do celów wynikających z prawnie uzasadnionych interesów realizowanych przez administratora lub przez stronę trzecią\n</div><div>Ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych (Dz.U. 2018 poz. 1000)\n</div><div>Ustawa z dnia 16 lipca 2004 r. Prawo telekomunikacyjne (Dz.U. 2004 nr 171 poz. 1800)\n</div><div>Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz. U. 1994 Nr 24 poz. 83)\n</div><div>§12 Okres przetwarzania danych osobowych\n</div><div>Dane osobowe podane dobrowolnie przez Użytkowników:\n</div><div>Co do zasady wskazane dane osobowe są przechowywane wyłącznie przez okres świadczenia Usługi w ramach Serwisu przez Administratora. Są one usuwane lub anonimizowane w okresie do 30 dni od chwili zakończenia świadczenia usług (np. usunięcie zarejestrowanego konta użytkownika, wypisanie z listy Newsletter, itp.)\n</div><div>Wyjątek stanowi sytuacja, która wymaga zabezpieczenia prawnie uzasadnionych celów dalszego przetwarzania tych danych przez Administratora. W takiej sytuacji Administrator będzie przechowywał wskazane dane, od czasu żądania ich usunięcia przez Użytkownika, nie dłużej niż przez okres 3 lat w przypadku naruszenia lub podejrzenia naruszenia zapisów regulaminu serwisu przez Użytkownika\n</div><div>Dane anonimowe (bez danych osobowych) gromadzone automatycznie:\n</div><div>Anonimowe dane statystyczne, niestanowiące danych osobowych, są przechowywane przez Administratora w celu prowadzenia statystyk serwisu przez czas nieoznaczony\n</div><div>§13 Prawa Użytkowników związane z przetwarzaniem danych osobowych\n</div><div>Serwis gromadzi i przetwarza dane Użytkowników na podstawie:\n</div><div>Prawo dostępu do danych osobowych\n</div><div>Użytkownikom przysługuje prawo uzyskania dostępu do swoich danych osobowych, realizowane na żądanie złożone do Administratora\n</div><div>Prawo do sprostowania danych osobowych\n</div><div>Użytkownikom przysługuje prawo żądania od Administratora niezwłocznego sprostowania danych osobowych, które są nieprawidłowe lub / oraz uzupełnienia niekompletnych danych osobowych, realizowane na żądanie złożone do Administratora\n</div><div>Prawo do usunięcia danych osobowych\n</div><div>Użytkownikom przysługuje prawo żądania od Administratora niezwłocznego usunięcia danych osobowych, realizowane na żądanie złożone do Administratora W przypadku kont użytkowników, usunięcie danych polega na anonimizacji danych umożliwiających identyfikację Użytkownika. Administrator zastrzega sobie prawo wstrzymania realizacji żądania usunięcia danych w celu ochrony prawnie uzasadnionego interesu Administratora (np. w gdy Użytkownik dopuścił się naruszenia Regulaminu czy dane zostały pozyskane wskutek prowadzonej korespondencji).\n</div><div>W przypadku usługi Newsletter, Użytkownik ma możliwość samodzielnego usunięcia swoich danych osobowych korzystając z odnośnika umieszczonego w każdej przesyłanej wiadomości e-mail.\n</div><div>Prawo do ograniczenia przetwarzania danych osobowych\n</div><div>Użytkownikom przysługuje prawo ograniczenia przetwarzania danych osobowych w przypadkach wskazanych w art. 18 RODO, m.in. kwestionowania prawidłowość danych osobowych, realizowane na żądanie złożone do Administratora\n</div><div>Prawo do przenoszenia danych osobowych\n</div><div>Użytkownikom przysługuje prawo uzyskania od Administratora, danych osobowych dotyczących Użytkownika w ustrukturyzowanym, powszechnie używanym formacie nadającym się do odczytu maszynowego, realizowane na żądanie złożone do Administratora\n</div><div>Prawo wniesienia sprzeciwu wobec przetwarzania danych osobowych\n</div><div>Użytkownikom przysługuje prawo wniesienia sprzeciwu wobec przetwarzania jego danych osobowych w przypadkach określonych w art. 21 RODO, realizowane na żądanie złożone do Administratora\n</div><div>Prawo wniesienia skargi\n</div><div>Użytkownikom przysługuje prawo wniesienia skargi do organu nadzorczego zajmującego się ochroną danych osobowych.\n</div><div>§14 Kontakt do Administratora\n</div><div>Z Administratorem można skontaktować się w jeden z poniższych sposobów\n</div><div>Adres poczty elektronicznej - bartoszschabowski6@vp.pl\n</div><div>Połączenie telefoniczne - +48 733 888 923\n</div><div>Formularz kontaktowy - dostępny pod adresem: /kontakt\n</div><div>§15 Wymagania Serwisu\n</div><div>Ograniczenie zapisu i dostępu do plików Cookie na Urządzeniu Użytkownika może spowodować nieprawidłowe działanie niektórych funkcji Serwisu.\n</div><div>Administrator nie ponosi żadnej odpowiedzialności za nieprawidłowo działające funkcje Serwisu w przypadku gdy Użytkownik ograniczy w jakikolwiek sposób możliwość zapisywania i odczytu plików Cookie.\n</div><div>§16 Linki zewnętrzne\n</div><div>W Serwisie - artykułach, postach, wpisach czy komentarzach Użytkowników mogą znajdować się odnośniki do witryn zewnętrznych, z którymi Właściciel serwisu nie współpracuje. Linki te oraz strony lub pliki pod nimi wskazane mogą być niebezpieczne dla Twojego Urządzenia lub stanowić zagrożenie bezpieczeństwa Twoich danych. Administrator nie ponosi odpowiedzialności za zawartość znajdującą się poza Serwisem.\n</div><div>§17 Zmiany w Polityce Prywatności\n</div><div>Administrator zastrzega sobie prawo do dowolnej zmiany niniejszej Polityki Prywatności bez konieczności informowania o tym Użytkowników w zakresie stosowania i wykorzystywania danych anonimowych lub stosowania plików Cookie.\n</div><div>Administrator zastrzega sobie prawo do dowolnej zmiany niniejszej Polityki Prywatności w zakresie przetwarzania Danych Osobowych, o czym poinformuje Użytkowników posiadających konta użytkownika lub zapisanych do usługi newsletter, za pośrednictwem poczty elektronicznej w terminie do 7 dni od zmiany zapisów. Dalsze korzystanie z usług oznacza zapoznanie się i akceptację wprowadzonych zmian Polityki Prywatności. W przypadku w którym Użytkownik nie będzie się zgadzał z wprowadzonymi zmianami, ma obowiązek usunąć swoje konto z Serwisu lub wypisać się z usługi Newsletter.\n</div><div>Wprowadzone zmiany w Polityce Prywatności będą publikowane na tej podstronie Serwisu.\n</div><div>Wprowadzone zmiany wchodzą w życie z chwilą ich publikacji.\n</div><div>Polityka Prywatności\n</div><div>Poniższa Polityka Prywatności określa zasady zapisywania i uzyskiwania dostępu do danych na Urządzeniach Użytkowników korzystających z Serwisu do celów świadczenia usług drogą elektroniczną przez Administratora oraz zasady gromadzenia i przetwarzania danych osobowych Użytkowników, które zostały podane przez nich osobiście i dobrowolnie za pośrednictwem narzędzi dostępnych w Serwisie.\n</div><div>Poniższa Polityka Prywatności jest integralną częścią Regulaminu Serwisu, który określa zasady, prawa i obowiązki Użytkowników korzystających z Serwisu.\n</div><div>§1 Definicje\n</div><div>Serwis - serwis internetowy \"graphsharv.github.io\" działający pod adresem https://graphsharv.github.io\n</div><div>Serwis zewnętrzny - serwisy internetowe partnerów, usługodawców lub usługobiorców współpracujących z Administratorem\n</div><div>Administrator Serwisu / Danych - Administratorem Serwisu oraz Administratorem Danych (dalej Administrator) jest osoba fizyczna \"Bartosz Schabowski\" zamieszkała w Sanoku, świadcząca usługi drogą elektroniczną za pośrednictwem Serwisu\n</div><div>Użytkownik - osoba fizyczna, dla której Administrator świadczy usługi drogą elektroniczną za pośrednictwem Serwisu.\n</div><div>Urządzenie - elektroniczne urządzenie wraz z oprogramowaniem, za pośrednictwem którego Użytkownik uzyskuje dostęp do Serwisu\n</div><div>Cookies (ciasteczka) - dane tekstowe gromadzone w formie plików zamieszczanych na Urządzeniu Użytkownika\n</div><div>RODO - Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych)\n</div><div>Dane osobowe - oznaczają informacje o zidentyfikowanej lub możliwej do zidentyfikowania osobie fizycznej („osobie, której dane dotyczą”); możliwa do zidentyfikowania osoba fizyczna to osoba, którą można bezpośrednio lub pośrednio zidentyfikować, w szczególności na podstawie identyfikatora takiego jak imię i nazwisko, numer identyfikacyjny, dane o lokalizacji, identyfikator internetowy lub jeden bądź kilka szczególnych czynników określających fizyczną, fizjologiczną, genetyczną, psychiczną, ekonomiczną, kulturową lub społeczną tożsamość osoby fizycznej\n</div><div>Przetwarzanie - oznacza operację lub zestaw operacji wykonywanych na danych osobowych lub zestawach danych osobowych w sposób zautomatyzowany lub niezautomatyzowany, taką jak zbieranie, utrwalanie, organizowanie, porządkowanie, przechowywanie, adaptowanie lub modyfikowanie, pobieranie, przeglądanie, wykorzystywanie, ujawnianie poprzez przesłanie, rozpowszechnianie lub innego rodzaju udostępnianie, dopasowywanie lub łączenie, ograniczanie, usuwanie lub niszczenie;\n</div><div>Ograniczenie przetwarzania - oznacza oznaczenie przechowywanych danych osobowych w celu ograniczenia ich przyszłego przetwarzania\n</div><div>Profilowanie - oznacza dowolną formę zautomatyzowanego przetwarzania danych osobowych, które polega na wykorzystaniu danych osobowych do oceny niektórych czynników osobowych osoby fizycznej, w szczególności do analizy lub prognozy aspektów dotyczących efektów pracy tej osoby fizycznej, jej sytuacji ekonomicznej, zdrowia, osobistych preferencji, zainteresowań, wiarygodności, zachowania, lokalizacji lub przemieszczania się\n</div><div>Zgoda - zgoda osoby, której dane dotyczą oznacza dobrowolne, konkretne, świadome i jednoznaczne okazanie woli, którym osoba, której dane dotyczą, w formie oświadczenia lub wyraźnego działania potwierdzającego, przyzwala na przetwarzanie dotyczących jej danych osobowych\n</div><div>Naruszenie ochrony danych osobowych - oznacza naruszenie bezpieczeństwa prowadzące do przypadkowego lub niezgodnego z prawem zniszczenia, utracenia, zmodyfikowania, nieuprawnionego ujawnienia lub nieuprawnionego dostępu do danych osobowych przesyłanych, przechowywanych lub w inny sposób przetwarzanych\n</div><div>Pseudonimizacja - oznacza przetworzenie danych osobowych w taki sposób, by nie można ich było już przypisać konkretnej osobie, której dane dotyczą, bez użycia dodatkowych informacji, pod warunkiem że takie dodatkowe informacje są przechowywane osobno i są objęte środkami technicznymi i organizacyjnymi uniemożliwiającymi ich przypisanie zidentyfikowanej lub możliwej do zidentyfikowania osobie fizycznej\n</div><div>Anonimizacja - Anonimizacja danych to nieodwracalny proces operacji na danych, który niszczy / nadpisuje \"dane osobowe\" uniemożliwiając identyfikację, lub powiązanie danego rekordu z konkretnym użytkownikiem lub osobą fizyczną.\n</div><div>§2 Inspektor Ochrony Danych\n</div><div>Na podstawie Art. 37 RODO, Administrator nie powołał Inspektora Ochrony Danych.\n</div><div>W sprawach dotyczących przetwarzania danych, w tym danych osobowych, należy kontaktować się bezpośrednio z Administratorem.\n</div><div>§3 Rodzaje Plików Cookies\n</div><div>Cookies wewnętrzne - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez system teleinformatyczny Serwisu\n</div><div>Cookies zewnętrzne - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez systemy teleinformatyczne Serwisów zewnętrznych. Skrypty Serwisów zewnętrznych, które mogą umieszczać pliki Cookies na Urządzeniach Użytkownika zostały świadomie umieszczone w Serwisie poprzez skrypty i usługi udostępnione i zainstalowane w Serwisie\n</div><div>Cookies sesyjne - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez Serwis podczas jednej sesji danego Urządzenia. Po zakończeniu sesji pliki są usuwane z Urządzenia Użytkownika.\n</div><div>Cookies trwałe - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez Serwis do momentu ich ręcznego usunięcia. Pliki nie są usuwane automatycznie po zakończeniu sesji Urządzenia chyba że konfiguracja Urządzenia Użytkownika jest ustawiona na tryb usuwanie plików Cookie po zakończeniu sesji Urządzenia.\n</div><div>§4 Bezpieczeństwo składowania danych\n</div><div>Mechanizmy składowania i odczytu plików Cookie - Mechanizmy składowania, odczytu i wymiany danych pomiędzy Plikami Cookies zapisywanymi na Urządzeniu Użytkownika a Serwisem są realizowane poprzez wbudowane mechanizmy przeglądarek internetowych i nie pozwalają na pobieranie innych danych z Urządzenia Użytkownika lub danych innych witryn internetowych, które odwiedzał Użytkownik, w tym danych osobowych ani informacji poufnych. Przeniesienie na Urządzenie Użytkownika wirusów, koni trojańskich oraz innych robaków jest także praktycznie niemożliwe.\n</div><div>Cookie wewnętrzne - zastosowane przez Administratora pliki Cookie są bezpieczne dla Urządzeń Użytkowników i nie zawierają skryptów, treści lub informacji mogących zagrażać bezpieczeństwu danych osobowych lub bezpieczeństwu Urządzenia z którego korzysta Użytkownik.\n</div><div>Cookie zewnętrzne - Administrator dokonuje wszelkich możliwych działań w celu weryfikacji i doboru partnerów serwisu w kontekście bezpieczeństwa Użytkowników. Administrator do współpracy dobiera znanych, dużych partnerów o globalnym zaufaniu społecznym. Nie posiada on jednak pełnej kontroli nad zawartością plików Cookie pochodzących od zewnętrznych partnerów. Za bezpieczeństwo plików Cookie, ich zawartość oraz zgodne z licencją wykorzystanie przez zainstalowane w serwisie Skrypty, pochodzących z Serwisów zewnętrznych, Administrator nie ponosi odpowiedzialności na tyle na ile pozwala na to prawo. Lista partnerów zamieszczona jest w dalszej części Polityki Prywatności.\n</div><div>Kontrola plików Cookie\n</div><div>Użytkownik może w dowolnym momencie, samodzielnie zmienić ustawienia dotyczące zapisywania, usuwania oraz dostępu do danych zapisanych plików Cookies przez każdą witrynę internetową\n</div><div>Informacje o sposobie wyłączenia plików Cookie w najpopularniejszych przeglądarkach komputerowych dostępne są na stronie: jak wyłączyć cookie lub u jednego ze wskazanych dostawców:\n</div><div>Zarządzanie plikami cookies w przeglądarce Chrome\n</div><div>Zarządzanie plikami cookies w przeglądarce Opera\n</div><div>Zarządzanie plikami cookies w przeglądarce FireFox\n</div><div>Zarządzanie plikami cookies w przeglądarce Edge\n</div><div>Zarządzanie plikami cookies w przeglądarce Safari\n</div><div>Zarządzanie plikami cookies w przeglądarce Internet Explorer 11\n</div><div>Użytkownik może w dowolnym momencie usunąć wszelkie zapisane do tej pory pliki Cookie korzystając z narzędzi Urządzenia Użytkownika, za pośrednictwem którego Użytkownik korzysta z usług Serwisu.\n</div><div>Zagrożenia po stronie Użytkownika - Administrator stosuje wszelkie możliwe środki techniczne w celu zapewnienia bezpieczeństwa danych umieszczanych w plikach Cookie. Należy jednak zwrócić uwagę, że zapewnienie bezpieczeństwa tych danych zależy od obu stron w tym działalności Użytkownika. Administrator nie bierze odpowiedzialności za przechwycenie tych danych, podszycie się pod sesję Użytkownika lub ich usunięcie, na skutek świadomej lub nieświadomej działalność Użytkownika, wirusów, koni trojańskich i innego oprogramowania szpiegującego, którymi może jest lub było zainfekowane Urządzenie Użytkownika. Użytkownicy w celu zabezpieczenia się przed tymi zagrożeniami powinni stosować się do zasad bezpiecznego korzystania z sieci internet.\n</div><div>Przechowywanie danych osobowych - Administrator zapewnia, że dokonuje wszelkich starań, by przetwarzane dane osobowe wprowadzone dobrowolnie przez Użytkowników były bezpieczne, dostęp do nich był ograniczony i realizowany zgodnie z ich przeznaczeniem i celami przetwarzania. Administrator zapewnia także, że dokonuje wszelkich starań w celu zabezpieczenia posiadanych danych przed ich utratą, poprzez stosowanie odpowiednich zabezpieczeń fizycznych jak i organizacyjnych.\n</div><div>Przechowywanie haseł - Administrator oświadcza, że hasła przechowywane są w zaszyfrowanej postaci, używając najnowszych standardów i wytycznych w tym zakresie. Deszyfracja podawanych w Serwisie haseł dostępu do konta jest praktycznie niemożliwa.\n</div><div>§5 Cele do których wykorzystywane są pliki Cookie\n</div><div>Usprawnienie i ułatwienie dostępu do Serwisu\n</div><div>Personalizacja Serwisu dla Użytkowników\n</div><div>Umożliwienie Logowania do serwisu\n</div><div>Marketing, Remarketing w serwisach zewnętrznych\n</div><div>Usługi serwowania reklam\n</div><div>Usługi afiliacyjne\n</div><div>Prowadzenie statystyk (użytkowników, ilości odwiedzin, rodzajów urządzeń, łącze itp.)\n</div><div>Serwowanie usług multimedialnych\n</div><div>Świadczenie usług społecznościowych\n</div><div>§6 Cele przetwarzania danych osobowych\n</div><div>Dane osobowe dobrowolnie podane przez Użytkowników są przetwarzane w jednym z następujących celów:\n</div><div>Realizacji usług elektronicznych:\n</div><div>Usługi rejestracji i utrzymania konta Użytkownika w Serwisie i funkcjonalności z nim związanych\n</div><div>Usługi Newslettera (w tym przesyłania za zgodą treści reklamowych)\n</div><div>Usługi komentowania / polubienia wpisów w Serwisie bez konieczności rejestrowania się\n</div><div>Usługi udostępniania informacji o treści umieszczonych w Serwisie w serwisach społecznościowych lub innych witrynach.\n</div><div>Komunikacji Administratora z Użytkownikami w sprawach związanych z Serwisem oraz ochrony danych\n</div><div>Zapewnienia prawnie uzasadnionego interesu Administratora\n</div><div>Dane o Użytkownikach gromadzone anonimowo i automatycznie są przetwarzane w jednym z następujących celów:\n</div><div>Prowadzenie statystyk\n</div><div>Remarketing\n</div><div>Serwowanie reklam dostosowanych do preferencji Użytkowników\n</div><div>Obsługi programów afiliacyjnych\n</div><div>Zapewnienia prawnie uzasadnionego interesu Administratora\n</div><div>§7 Pliki Cookies Serwisów zewnętrznych\n</div><div>Administrator w Serwisie wykorzystuje skrypty javascript i komponenty webowe partnerów, którzy mogą umieszczać własne pliki cookies na Urządzeniu Użytkownika. Pamiętaj, że w ustawieniach swojej przeglądarki możesz sam decydować o dozwolonych plikach cookies jakie mogą być używane przez poszczególne witryny internetowe. Poniżej znajduje się lista partnerów lub ich usług zaimplementowanych w Serwisie, mogących umieszczać pliki cookies:\n</div><div>Usługi multimedialne:\n</div><div>YouTube\n</div><div>Usługi społecznościowe / łączone:\n</div><div>(Rejestracja, Logowanie, udostępnianie treści, komunikacja, itp.)\n</div><div>Twitter\n</div><div>Facebook\n</div><div>Google+\n</div><div>Usługi udostępniania treści:\n</div><div>Instagram\n</div><div>Usługi Newslettera:\n</div><div>MailChimp\n</div><div>Usługi serwowania reklam oraz sieci afiliacyjne:\n</div><div>MyLead\n</div><div>Usługi świadczone przez podmioty trzecie są poza kontrolą Administratora. Podmioty te mogą w każdej chwili zmienić swoje warunki świadczenia usług, polityki prywatności, cel przetwarzania danych oraz sposów wykorzystywania plików cookie.\n</div><div>§8 Rodzaje gromadzonych danych\n</div><div>Serwis gromadzi dane o Użytkownikach. Cześć danych jest gromadzona automatycznie i anonimowo, a część danych to dane osobowe podane dobrowolnie przez Użytkowników w trakcie zapisywania się do poszczególnych usług oferowanych przez Serwis.\n</div><div>Anonimowe dane gromadzone automatycznie:\n</div><div>Adres IP\n</div><div>Typ przeglądarki\n</div><div>Rozdzielczość ekranu\n</div><div>Przybliżona lokalizacja\n</div><div>Otwierane podstrony serwisu\n</div><div>Czas spędzony na odpowiedniej podstronie serwisu\n</div><div>Rodzaj systemu operacyjnego\n</div><div>Adres poprzedniej podstrony\n</div><div>Adres strony odsyłającej\n</div><div>Język przeglądarki\n</div><div>Prędkość łącza internetowego\n</div><div>Dostawca usług internetowych\n</div><div>Dane gromadzone podczas rejestracji:\n</div><div>Imię / nazwisko / pseudonim\n</div><div>Login\n</div><div>Adres e-mail\n</div><div>Avatar / Zdjęcie profilowe\n</div><div>Adres IP (zbierane automatycznie)\n</div><div>Dane gromadzone podczas zapisu do usługi Newsletter\n</div><div>Adres e-mail\n</div><div>Część danych (bez danych identyfikujących) może być przechowywana w plikach cookies. Cześć danych (bez danych identyfikujących) może być przekazywana do dostawcy usług statystycznych.\n</div><div>§9 Dostęp do danych osobowych przez podmioty trzecie\n</div><div>Co do zasady jedynym odbiorcą danych osobowych podawanych przez Użytkowników jest Administrator. Dane gromadzone w ramach świadczonych usług nie są przekazywane ani odsprzedawane podmiotom trzecim.\n</div><div>Dostęp do danych (najczęściej na podstawie Umowy powierzenia przetwarzania danych) mogą posiadać podmioty, odpowiedzialne za utrzymania infrastruktury i usług niezbędnych do prowadzenia serwisu tj.:\n</div><div>Firmy hostingowe, świadczące usługi hostingu lub usług pokrewnych dla Administratora\n</div><div>Powierzenie przetwarzania danych osobowych - Newsletter\n</div><div>Administrator w celu świadczenia usługi Newsletter, korzysta z usług podmiotu trzeciego - serwisu MailChimp, . Dane wprowadzone w formularzu zapisu do newslettera są przekazywane, przechowywane i przetwarzane w serwisie zewnętrznym tego usługodawcy.\n</div><div>Informujemy, że wskazany partner może modyfikować wskazaną politykę prywatności bez zgody Administratora.\n</div><div>Powierzenie przetwarzania danych osobowych - Usługi Hostingu, VPS lub Serwerów Dedykowanych\n</div><div>Administrator w celu prowadzenia serwisu korzysta z usług zewnętrznego dostawcy hostingu, VPS lub Serwerów Dedykowanych - . Wszelkie dane gromadzone i przetwarzane w serwisie są przechowywane i przetwarzane w infrastrukturze usługodawcy zlokalizowanej w obrębie gramic Unii Europejskiej. Istnieje możliwość dostępu do danych wskutek prac serwisowych realizowanych przez personel usługodawcy. Dostęp do tych danych reguluje umowa zawarta pomiędzy Administratorem a Usługodawcą.\n</div><div>§10 Sposób przetwarzania danych osobowych\n</div><div>Dane osobowe podane dobrowolnie przez Użytkowników:\n</div><div>Dane osobowe nie będą przekazywane poza Unię Europejską, chyba że zostały opublikowane na skutek indywidualnego działania Użytkownika (np. wprowadzenie komentarza lub wpisu), co sprawi, że dane będą dostępne dla każdej osoby odwiedzającej serwis.\n</div><div>Dane osobowe nie będą wykorzystywane do zautomatyzowanego podejmowania decyzji (profilowania).\n</div><div>Dane osobowe nie będą odsprzedawane podmiotom trzecim.\n</div><div>Dane anonimowe (bez danych osobowych) gromadzone automatycznie:\n</div><div>Dane anonimiwe (bez danych osobowych) będą przekazywane poza Unię Europejską.\n</div><div>Dane anonimiwe (bez danych osobowych) nie będą wykorzystywane do zautomatyzowanego podejmowania decyzji (profilowania).\n</div><div>Dane anonimiwe (bez danych osobowych) nie będą odsprzedawane podmiotom trzecim.\n</div><div>§11 Podstawy prawne przetwarzania danych osobowych\n</div><div>Serwis gromadzi i przetwarza dane Użytkowników na podstawie:\n</div><div>Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych)\n</div><div>art. 6 ust. 1 lit. a\n</div><div>osoba, której dane dotyczą wyraziła zgodę na przetwarzanie swoich danych osobowych w jednym lub większej liczbie określonych celów\n</div><div>art. 6 ust. 1 lit. b\n</div><div>przetwarzanie jest niezbędne do wykonania umowy, której stroną jest osoba, której dane dotyczą, lub do podjęcia działań na żądanie osoby, której dane dotyczą, przed zawarciem umowy\n</div><div>art. 6 ust. 1 lit. c\n</div><div>przetwarzanie jest niezbędne do wypełnienia obowiązku prawnego ciążącego na administratorze\n</div><div>art. 6 ust. 1 lit. f\n</div><div>przetwarzanie jest niezbędne do celów wynikających z prawnie uzasadnionych interesów realizowanych przez administratora lub przez stronę trzecią\n</div><div>Ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych (Dz.U. 2018 poz. 1000)\n</div><div>Ustawa z dnia 16 lipca 2004 r. Prawo telekomunikacyjne (Dz.U. 2004 nr 171 poz. 1800)\n</div><div>Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz. U. 1994 Nr 24 poz. 83)\n</div><div>§12 Okres przetwarzania danych osobowych\n</div><div>Dane osobowe podane dobrowolnie przez Użytkowników:\n</div><div>Co do zasady wskazane dane osobowe są przechowywane wyłącznie przez okres świadczenia Usługi w ramach Serwisu przez Administratora. Są one usuwane lub anonimizowane w okresie do 30 dni od chwili zakończenia świadczenia usług (np. usunięcie zarejestrowanego konta użytkownika, wypisanie z listy Newsletter, itp.)\n</div><div>Wyjątek stanowi sytuacja, która wymaga zabezpieczenia prawnie uzasadnionych celów dalszego przetwarzania tych danych przez Administratora. W takiej sytuacji Administrator będzie przechowywał wskazane dane, od czasu żądania ich usunięcia przez Użytkownika, nie dłużej niż przez okres 3 lat w przypadku naruszenia lub podejrzenia naruszenia zapisów regulaminu serwisu przez Użytkownika\n</div><div>Dane anonimowe (bez danych osobowych) gromadzone automatycznie:\n</div><div>Anonimowe dane statystyczne, niestanowiące danych osobowych, są przechowywane przez Administratora w celu prowadzenia statystyk serwisu przez czas nieoznaczony\n</div><div>§13 Prawa Użytkowników związane z przetwarzaniem danych osobowych\n</div><div>Serwis gromadzi i przetwarza dane Użytkowników na podstawie:\n</div><div>Prawo dostępu do danych osobowych\n</div><div>Użytkownikom przysługuje prawo uzyskania dostępu do swoich danych osobowych, realizowane na żądanie złożone do Administratora\n</div><div>Prawo do sprostowania danych osobowych\n</div><div>Użytkownikom przysługuje prawo żądania od Administratora niezwłocznego sprostowania danych osobowych, które są nieprawidłowe lub / oraz uzupełnienia niekompletnych danych osobowych, realizowane na żądanie złożone do Administratora\n</div><div>Prawo do usunięcia danych osobowych\n</div><div>Użytkownikom przysługuje prawo żądania od Administratora niezwłocznego usunięcia danych osobowych, realizowane na żądanie złożone do Administratora W przypadku kont użytkowników, usunięcie danych polega na anonimizacji danych umożliwiających identyfikację Użytkownika. Administrator zastrzega sobie prawo wstrzymania realizacji żądania usunięcia danych w celu ochrony prawnie uzasadnionego interesu Administratora (np. w gdy Użytkownik dopuścił się naruszenia Regulaminu czy dane zostały pozyskane wskutek prowadzonej korespondencji).\n</div><div>W przypadku usługi Newsletter, Użytkownik ma możliwość samodzielnego usunięcia swoich danych osobowych korzystając z odnośnika umieszczonego w każdej przesyłanej wiadomości e-mail.\n</div><div>Prawo do ograniczenia przetwarzania danych osobowych\n</div><div>Użytkownikom przysługuje prawo ograniczenia przetwarzania danych osobowych w przypadkach wskazanych w art. 18 RODO, m.in. kwestionowania prawidłowość danych osobowych, realizowane na żądanie złożone do Administratora\n</div><div>Prawo do przenoszenia danych osobowych\n</div><div>Użytkownikom przysługuje prawo uzyskania od Administratora, danych osobowych dotyczących Użytkownika w ustrukturyzowanym, powszechnie używanym formacie nadającym się do odczytu maszynowego, realizowane na żądanie złożone do Administratora\n</div><div>Prawo wniesienia sprzeciwu wobec przetwarzania danych osobowych\n</div><div>Użytkownikom przysługuje prawo wniesienia sprzeciwu wobec przetwarzania jego danych osobowych w przypadkach określonych w art. 21 RODO, realizowane na żądanie złożone do Administratora\n</div><div>Prawo wniesienia skargi\n</div><div>Użytkownikom przysługuje prawo wniesienia skargi do organu nadzorczego zajmującego się ochroną danych osobowych.\n</div><div>§14 Kontakt do Administratora\n</div><div>Z Administratorem można skontaktować się w jeden z poniższych sposobów\n</div><div>Adres poczty elektronicznej - bartoszschabowski6@vp.pl\n</div><div>Połączenie telefoniczne - +48 733 888 923\n</div><div>Formularz kontaktowy - dostępny pod adresem: /kontakt\n</div><div>§15 Wymagania Serwisu\n</div><div>Ograniczenie zapisu i dostępu do plików Cookie na Urządzeniu Użytkownika może spowodować nieprawidłowe działanie niektórych funkcji Serwisu.\n</div><div>Administrator nie ponosi żadnej odpowiedzialności za nieprawidłowo działające funkcje Serwisu w przypadku gdy Użytkownik ograniczy w jakikolwiek sposób możliwość zapisywania i odczytu plików Cookie.\n</div><div>§16 Linki zewnętrzne\n</div><div>W Serwisie - artykułach, postach, wpisach czy komentarzach Użytkowników mogą znajdować się odnośniki do witryn zewnętrznych, z którymi Właściciel serwisu nie współpracuje. Linki te oraz strony lub pliki pod nimi wskazane mogą być niebezpieczne dla Twojego Urządzenia lub stanowić zagrożenie bezpieczeństwa Twoich danych. Administrator nie ponosi odpowiedzialności za zawartość znajdującą się poza Serwisem.\n</div><div>§17 Zmiany w Polityce Prywatności\n</div><div>Administrator zastrzega sobie prawo do dowolnej zmiany niniejszej Polityki Prywatności bez konieczności informowania o tym Użytkowników w zakresie stosowania i wykorzystywania danych anonimowych lub stosowania plików Cookie.\n</div><div>Administrator zastrzega sobie prawo do dowolnej zmiany niniejszej Polityki Prywatności w zakresie przetwarzania Danych Osobowych, o czym poinformuje Użytkowników posiadających konta użytkownika lub zapisanych do usługi newsletter, za pośrednictwem poczty elektronicznej w terminie do 7 dni od zmiany zapisów. Dalsze korzystanie z usług oznacza zapoznanie się i akceptację wprowadzonych zmian Polityki Prywatności. W przypadku w którym Użytkownik nie będzie się zgadzał z wprowadzonymi zmianami, ma obowiązek usunąć swoje konto z Serwisu lub wypisać się z usługi Newsletter.\n</div><div>Wprowadzone zmiany w Polityce Prywatności będą publikowane na tej podstronie Serwisu.\n</div><div>Wprowadzone zmiany wchodzą w życie z chwilą ich publikacji.\n</div><div><br></div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "toTr4VRItw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-2"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              },
+              "& when (@transparent)": {
+                ".navbar-dropdown": {
+                  "position": "absolute !important"
+                }
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "4px",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              },
+              "&:first-child": {
+                "border-top-left-radius": "4px",
+                "border-top-right-radius": "4px"
+              },
+              "&:last-child": {
+                "border-bottom": "none",
+                "border-bottom-left-radius": "4px",
+                "border-bottom-right-radius": "4px"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": "0.667em 1em !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".navbar-caption": {},
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"4\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#353535\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/graphsharv-logo.png\" alt=\"GraphSharv\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-white text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html#top\" data-app-placeholder=\"Type Text\">GraphSharv</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Główna Strona</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#features19-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">O nas</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#features20-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Jak przebiega u nas zakup?</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-discord socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Get Started</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "sFGzlAXw3z",
+          "_anchor": "menu1-0",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".social-row": {
+              "display": "flex",
+              "flex-wrap": "wrap"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "border-radius": "50%",
+              "background-color": "white",
+              "margin-right": "0.5rem",
+              "margin-bottom": "1rem",
+              "padding": "0.5rem",
+              "height": "2.5rem",
+              "width": "2.5rem"
+            },
+            "@media (max-width: 767px)": {
+              ".row": {
+                "text-align": "center"
+              },
+              ".social-row": {
+                "justify-content": "center"
+              }
+            },
+            ".list": {
+              "list-style": "none",
+              "padding-left": "0",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "margin-bottom": "0rem"
+              },
+              "color": "#bbbbbb"
+            },
+            ".mbr-text": {
+              "color": "#bbbbbb"
+            },
+            ".mbr-iconfont": {
+              "color": "black"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopyright\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white\">\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>Links</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><br></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>Info</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n\n                    <li class=\"mbr-text item-wrap\"><br></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>Features</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><br></li><li class=\"mbr-text item-wrap\"><br></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>About</b>\n                </h5>\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">&nbsp;</p>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle && showSocial\">\n                    <b>Social</b>\n                </h5>\n                <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-behance socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-discord socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 mt-4\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style copyright align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2023 GraphSharv - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sFGDg6hy8z",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer1-1"
+        }
+      ]
+    }
+  }
+}
